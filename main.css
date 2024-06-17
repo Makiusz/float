@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald';
+    color: white;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    min-width: 750px;
+}
+
+/*float*/
+#header{
+    float: left;
+    background: red;
+    height: 15%;
+    width: 100%;
+    min-height: 110px;
+}
+
+#col1{
+    float: left;
+    background: blue;
+    height: 85%;
+    width: 33.3%;
+}
+
+#col2{
+    float: left;
+    background: green;
+    height: 85%;
+    width: 33.4%;
+}
+
+#col3{
+    float: left;
+    background: orange;
+    height: 85%;
+    width: 33.3%;
+}
+
+
+
+#header{    
+    text-align: center;
+    vertical-align: middle;
+    padding: 1%;
+    font-size: 1.25rem;
+}
+
+.circle{
+    margin: 10px auto;
+    height: 50px;
+    width: 50px;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.circle p{
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col{
+    margin: 0 auto;
+    text-align: center;
+    min-height: 550px;
+}
+
+#uslugi{
+    margin: 10px 0 15px;
+}
+li{
+    text-align: left;
+    padding: 0 20px 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+input[type="number"],input[type="text"],select,option{
+    border: 0 solid white;
+    margin: 5px;
+    text-align: center;
+    color: #1f1d1d;
+    width: 70%;
+    height: 35px;
+    border-radius: 3%;
+}
+.small{
+    font-size: 0.8rem;
+    padding: 0 20px
+}
+#col3 input[type="radio"]{
+    margin: 0 10px 20px;
+}
+
+button{
+    border: 0 solid white;
+    margin: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+    height: 40px;
+    border-radius: 3%;
+    background: rgba(0,0,0,0.3);
+    min-width: 150px;
+}
+
+.left{
+    text-align: left;
+    margin: 0 10px;
+}

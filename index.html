@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<htlm lang="pl-PL">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=latin-ext" rel="stylesheet">
+    </head>
+    <body>
+      
+        <div id="header">
+            <h1>Malowanie</h1>
+            <p>zamówienie</p>
+        </div>
+        <div id="col1" class="col">
+            <div class="circle"><p>1</p></div>
+            <p>wymiary pomieszczenia</p>
+            
+            <form action=" " method="get">
+                <input type="number" placeholder="szerokość (m)"/><br/>
+                <input type="number" placeholder="długość (m)"/><br/>
+                <input type="number"  placeholder="wysokość (m)"/><br/>
+                <p>metoda:</p>
+                
+                <select name="metoda">
+                    <option value="1" >natrysk</option>
+                    <option value="2" selected="selected">Malowanie pędzlem</option>
+                    <option value="3">Kompresor</option>
+                    <option value="4">pigmentowanie</option>
+                   
+                </select>
+                <p>farba:</p>
+                
+                <select name="farba">
+                    <option value="1">Atlas</option>
+                    <option value="2" selected="selected">Dulux</option>
+                    <option value="3">Magnat</option>
+                    <option value="4">colorex</option>
+                   
+                </select>
+                
+                <p id="uslugi">usługi dodatkowe:</p>
+                <div class="left">
+                <input type="radio" value="1" name="grupa"/>szpachlowanie<br/>
+                <input type="radio" value="2" name="grupa"/>gruntowanie<br/>
+                <input type="radio" value="3" name="grupa"/>malowanie sufitów<br/>
+                <input type="radio" value="4" name="grupa"/>sprzątanie<br/>
+            </div>
+            </form>
+            
+        </div>
+        <div id="col2" class="col">
+            <div class="circle"><p>2</p></div>
+            <p>dane osobowe</p>
+              <form action=" " method="get">
+        
+                <input type="text" placeholder="imię (maks. 20 znaków)" maxlength="20"/><br/>
+                <input type="text" placeholder="nazwisko (maks. 20 znaków)"  maxlength="20" /><br/>
+                <input type="text" placeholder="adres email (maks. 30 znaków)"  maxlength="30"/><br/>
+                <input type="text" placeholder="miasto (maks. 15 znaków)"  maxlength="15"/><br/>
+                <p>płeć:</p>
+                <select name="plec">
+                    <option value="1" selected="selected">mężczyzna</option>
+                    <option value="2">kobieta</option>
+                    <option value="3">nie określone</option>
+                   
+                </select>
+            </form>
+             <p id="uslugi">wykształcenie:</p>
+            <div class="left">
+                <input type="radio" value="1" name="grupa"/>podstawowe<br/>
+                <input type="radio" value="2" name="grupa"/>średnie<br/>
+                <input type="radio" value="3" name="grupa"/>Wyższe<br/>
+            </div>
+        </div>
+        <div id="col3" class="col">
+            <div class="circle"><p>3</p></div>
+            <p>utwórz dla mnie konto</p>
+            
+            <form action=" " method="get">
+        
+                <input type="text" placeholder="login (maks. 10 znaków)" maxlength="20"/><br/>
+                <input type="text" placeholder="hasło"/><br/>
+               
+                <p>zgody:</p>
+                <p class="small">Wyrażam zgodę na przetwarzanie moich danych osobowych w celu realizacji zamówienia (wymagane)</p>
+                <input type="radio" value="1" name="grupa"/>Tak
+                <input type="radio" value="2" name="grupa"/>Nie
+                
+                
+                <p class="small">Oświadczam, iż wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych</p>
+                <input type="radio" value="1" name="grupa"/>Tak
+                <input type="radio" value="2" name="grupa"/>Nie
+                <br/>
+                <button>złóż zamówienie</button>
+            </form>
+        </div>
+    </body>    
+</htlm>
